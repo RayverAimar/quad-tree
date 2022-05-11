@@ -12,7 +12,6 @@ size_t N, N_points;
 
 int main(){
     ifstream file("../data/points.in");
-    //ifstream file("D:\\UCSP\\Computer_Science\\Repositories\\region-quad-tree\\data\\points.in");
     file>>N>>N_points;
     double** coords= new double*[N];
     for(size_t i = 0; i < N; i++){
